@@ -1,0 +1,25 @@
+// DM Environment file for Apoc.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "base.dm"
+#include "item.dm"
+#include "junk.dm"
+#include "mob.dm"
+#include "objects.dm"
+#include "turf.dm"
+#include "world.dmm"
+// END_INCLUDE
+
