@@ -4,7 +4,7 @@ turf/desert
 	icon_state = "1"
 turf/desert/New()
 	..()
-turf/concrete
+turf/floor
 	name = "concrete"
 	icon = 'city.dmi'
 	icon_state = "concrete"
@@ -22,7 +22,6 @@ turf/wall/shopwindow
 	name = "Shop Window"
 	icon_state = "shopwindow"
 	opacity = 0
-turf/wall/fence
-	name = "Iron fence"
-	opacity = 0
-	icon_state = "ironfence"
+turf/floor/tile
+	name = "floor tiles"
+	icon_state = "tiles"

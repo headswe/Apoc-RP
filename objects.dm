@@ -21,3 +21,10 @@ obj/objects/salvage/New()
 	amm = rand(1,5)
 obj/objects/salvage/attack(mob/user)
 	user << "You attempt to salvage from \the [src]..."
+
+obj/objects/fence
+	name = "Iron fence"
+	opacity = 0
+	icon = 'city.dmi'
+	icon_state = "ironfence"
+	density = 0
