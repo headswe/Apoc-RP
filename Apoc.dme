@@ -15,6 +15,7 @@
 
 // BEGIN_INCLUDE
 #include "base.dm"
+#include "info.dm"
 #include "item.dm"
 #include "junk.dm"
 #include "mob.dm"
